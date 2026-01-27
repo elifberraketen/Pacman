@@ -6,7 +6,7 @@ public class App {
     static void main(String[] args) {
 
         int rowNum = 21;  //from 0 to 20
-        int colubmnNum = 19 ;
+        int colubmnNum = 19;
         int tileSize = 32;
         int tableWidth = colubmnNum * tileSize;
         int tableHeigth = rowNum * tileSize ;
