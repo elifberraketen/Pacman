@@ -12,10 +12,16 @@ public class App {
         int tableHeigth = rowNum * tileSize ;
 
         JFrame frame = new JFrame("PacMan");
-        frame.setVisible(true);
+
         frame.setSize(tableWidth,tableHeigth);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);      //center of our screen
         frame.setResizable(false);
+
+    Pacman pacmanGame =new Pacman();
+    frame.add(pacmanGame);
+    frame.setVisible(true);
+
     }
+
 }
